@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación: Rafita y Amaya</title>
+    <meta name="description" content="Invitación digital al cumpleaños de Rafita y Bautizo de Amaya.">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Capa de decoraciones (manchas de acuarela simuladas con CSS) -->
+    <div class="watercolor-bg watercolor-1"></div>
+    <div class="watercolor-bg watercolor-2"></div>
+    <div class="watercolor-bg watercolor-3"></div>
+    <div class="watercolor-bg watercolor-4"></div>
+
+    <div class="invitation-container fade-in-up">
+        
+        <header class="header text-center fade-in-up">
+            <h1 class="intro-text">Te invito a mi</h1>
+        </header>
+
+        <section class="rafita-section fade-in-up delay-1" id="cumple-rafita">
+            <h2 class="fun-title">Cumpleaños #9</h2>
+            
+            <div class="image-placeholder">
+                <img src="chopper.png" alt="Tony Tony Chopper" class="chopper-img" id="chopper-img">
+            </div>
+            
+            <h2 class="name-title">Rafita</h2>
+        </section>
+
+        <!-- Divider Swirl -->
+        <div class="fade-in-up delay-2 text-center swirl-container">
+            <svg class="swirl-svg" viewBox="0 0 200 40">
+                <path d="M 20 20 Q 50 -10, 100 20 T 180 20" stroke-linecap="round"/>
+                <circle cx="100" cy="20" r="3" fill="var(--color-pink-text)"/>
+            </svg>
+            <h1 class="intro-text" style="margin: 10px 0;">y al</h1>
+        </div>
+
+        <section class="amaya-section fade-in-up delay-2" id="bautizo-amaya">
+            <h2 class="elegant-title">Bautizo</h2>
+            
+            <div class="minimalist-decor">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 3v18M7 8h10"/>
+                </svg>
+            </div>
+
+            <h2 class="name-title">Amaya</h2>
+            
+            <div class="godparents">
+                <p class="godparents-title">Padrinos</p>
+                <p class="godparents-names">Lucía Olmos y Roberto Rojas</p>
+            </div>
+        </section>
+
+        <div class="date-time fade-in-up delay-3">
+            <p>30 de Mayo a partir de las 3:00 Hrs.</p>
+            <svg class="swirl-svg" viewBox="0 0 200 40" style="margin-top: 10px;">
+                <path d="M 50 20 Q 100 0, 150 20" stroke-linecap="round"/>
+                <path d="M 70 25 Q 100 10, 130 25" stroke-linecap="round" opacity="0.5"/>
+            </svg>
+        </div>
+
+        <section class="location-section fade-in-up delay-3" id="ubicacion">
+            <h3>Salón El Encino</h3>
+            <p class="address-text">
+                A Pueblito de Rocha 39c, Encino,<br>
+                36033 Guanajuato, Gto.
+            </p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Salon+El+Encino+Guanajuato" target="_blank" class="btn btn-map bounce-hover">Ver Ubicación en Mapa</a>
+        </section>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
